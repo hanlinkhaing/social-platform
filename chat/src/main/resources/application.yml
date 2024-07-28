@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: mongo_db
+      port: 27017
+      database: chat
+      username: admin
+      password: admin
+      authentication-database: admin
+
+server:
+  port: 8080
